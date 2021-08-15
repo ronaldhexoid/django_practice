@@ -1,5 +1,6 @@
 from django.db import models
 from django.db.models.deletion import CASCADE
+from admin import admin
 
 # Create your models here.
 class Question(models.Model):
